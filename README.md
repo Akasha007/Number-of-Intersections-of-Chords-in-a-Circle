@@ -43,6 +43,8 @@ For two lines to intersect with each other, the starting or ending point of one 
 
 Although this gives us the right output, this takes $$O(n^2)$$ time. This is not an efficient approach. 
 
+# Optimized Approach
+
 Let us go over the optimized approach which runs in **O(nlogn)** time. 
 
 To start with, I found it easier to name the starting and the ending points to a single number, that is "s_1" and "e_1" will be named 1 and 1. This gives us a list of length 2n with every number being twice in it. In this case, coded_identifiers will contain 2n identifiers. 
