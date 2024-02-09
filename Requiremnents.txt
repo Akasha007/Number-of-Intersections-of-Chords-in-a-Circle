@@ -1,0 +1,27 @@
+To run the provided Python code, you will need the following:
+
+Python: The code is written in Python. 
+
+bisect module: The code uses the bisect module which is a part of Python’s standard library, so no additional installation is required for it.
+
+Regarding the input formats:
+
+radians: This should be a list of floating-point numbers representing the radian values. Each radian value corresponds to a chord on the circle.
+
+identifiers: This should be a list of strings. Each string is an identifier for a chord and should be in the format ‘s_i’ or ‘e_i’, where ‘s’ stands for start, ‘e’ stands for end, and ‘i’ is the chord number. The identifiers ‘s_i’ and ‘e_i’ represent the start and end of the same chord.
+
+Here’s an example of valid inputs:
+
+radians = [
+ 1.4330884106919761,
+ 1.605190004118828,
+ 2.490214265565964,
+ 2.3707406779899007,
+ 3.107673792151342,
+ 6.261660560421499,
+ 2.564778651565386,
+ 4.849953007077043,
+ 4.778592943668447,
+ 1.9478461847479913]
+
+identifiers = ['e_1', 's_2', 'e_2', 's_3', 's_1', 'e_3', 's_4', 'e_4', 's_5', 'e_5']
